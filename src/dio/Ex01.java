@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 public class Ex01 {
     private static Object leitura;
+
     public static void main(String[] args) {
 
         Scanner teclado = new Scanner(System.in);
@@ -17,18 +18,15 @@ public class Ex01 {
         int b = teclado.nextInt();
         System.out.print("Digite um valor para C: ");
         int c = teclado.nextInt();
+
         int soma = a + b;
         System.out.println("A soma de A + B é igual a " + soma);
 
-        if (soma >= c){
+        if (soma >= c) {
             System.out.println("Soma é menor que C.");
-
-        }else {
+        } else {
             System.out.println("Soma é maior ou igual a C.");
         }
-        //mostras a soma
-        // imprimir resultado na tela
-
     }
-    
+
 }
