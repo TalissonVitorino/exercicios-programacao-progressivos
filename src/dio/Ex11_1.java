@@ -37,12 +37,12 @@ public class Ex11_1 {
 
         double somaDasNotas = primeiraNota + segundaNota + terceiraNota + quartaNota;
         double mediasDasnotas = somaDasNotas / 4;
-        System.out.println(nome + ", sua media é: " + mediasDasnotas);
+        System.out.println(nome + ", sua média é: " + mediasDasnotas + ".");
 
         if (mediasDasnotas >= 7) {
-            System.out.println(nome + "Parabens você está aprovado ");
+            System.out.println(nome + "Parabéns você está aprovado.");
         } else {
-            System.out.println(nome + "você foi reprovado ");
+            System.out.println(nome + "Você foi reprovado.");
         }
     }
 }
