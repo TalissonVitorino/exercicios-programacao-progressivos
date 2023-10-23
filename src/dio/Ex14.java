@@ -22,7 +22,6 @@ public class Ex14 {
         String aux = a;
         a = b;
         b = aux;
-
         System.out.println("Trocando...");
         System.out.println(a);
         System.out.println(b);
