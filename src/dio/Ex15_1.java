@@ -24,20 +24,19 @@ public class Ex15_1 {
             System.out.println("Número ímpar!");
         }
 
-        teclado = new Scanner(System.in);
         System.out.print("Digite outro número: ");
-        int outronumero = teclado.nextInt();
+        int outroNumero = teclado.nextInt();
 
-        if (outronumero % 2 == 0) {
+        if (outroNumero % 2 == 0) {
             System.out.println("Número par!");
         } else {
             System.out.println("Número ímpar!");
         }
 
-        int multiplicaproduto = numero * outronumero;
-        System.out.println(multiplicaproduto);
+        int multiplicaProduto = numero * outroNumero;
+        System.out.println(multiplicaProduto);
 
-        if (multiplicaproduto % 2 == 0) {
+        if (multiplicaProduto % 2 == 0) {
             System.out.println("Número par!");
         } else {
             System.out.println("Número ímpar!");
