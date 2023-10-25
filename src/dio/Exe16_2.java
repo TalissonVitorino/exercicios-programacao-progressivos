@@ -43,5 +43,6 @@ public class Exe16_2 {
         }
         System.out.println("O valor absoluto número " + numero + " é " + numeroAbsoluto + ".");
         System.out.println("O valor simétrico do número " + numero + " é " + -numero + ".");
+
     }
 }
