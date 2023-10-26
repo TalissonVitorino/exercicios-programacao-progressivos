@@ -12,7 +12,6 @@ Digite um número: 3
 Digite um número: 4
 Digite um número: 5
 Digite um número: 0
-
 A soma dos pares é: 6
  */
 package dio;
