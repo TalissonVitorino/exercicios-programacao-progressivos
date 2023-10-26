@@ -10,7 +10,7 @@ public class Ex1 {
 
         Scanner leitura = new Scanner(System.in);
 
-        System.out.println("Digite seu nome: ");
+        System.out.print("Digite seu nome: ");
         nome = leitura.nextLine();
         while (nome.length() < 2 || nome.length() > 30){
             System.out.println("Número de caracteres inválido");
