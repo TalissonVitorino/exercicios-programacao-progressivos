@@ -37,5 +37,6 @@ public class Ex01 {
         System.out.println(nome + "," + nome.length() + " caractere");
         System.out.println(segundo + "," + segundo.length() + " caractere");
         System.out.println(terceiro + "," + terceiro.length() + " caractere");
+
     }
 }
