@@ -2,7 +2,7 @@
 /*
 Alterar o mesmo programa do Exercício 1, para exibir a quantidade total de caracteres de todos os nomes filtrados.
 
-Para isso, adicione ao final do programa uma funcionalidade para contar as quantidades de caracteres fomente dos nomes filtrados e imprima a quantidade na tela.
+Para isso, adicione ao final do programa uma funcionalidade para contar as quantidades de caracteres somente dos nomes filtrados e imprima a quantidade na tela.
 
 Exemplo:
 
