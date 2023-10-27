@@ -62,3 +62,6 @@ public class Ex01_2 {
         System.out.println("Todos os nomes, juntos, possuem " + numerosSomados + " caracteres.");
     }
 }
+/*
+
+ */
