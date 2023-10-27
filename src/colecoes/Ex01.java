@@ -1,42 +1,44 @@
-/*
-Alterar o programa do Exercício 1 para passar trabalhar com três nomes, em vez de um.
+ /*
+Alterar o mesmo programa do Exercício 1, para que o usuário possa informar quantos nomes desejar.
 
-O programa deve ler os nomes de três pessoas e imprimir tela o nome e a quantidade de caracteres de cada nome.
+Para isso, pergunte ao usuário quantos nomes ele deseja informar.V
+Em seguida, leia todos os nomes do teclado.V
+Em seguida, imprima na tela o nome e a quantidade de caracteres de cada nome.V
 
 Exemplo:
+Quantos nomes você deseja informar? 4
 Digite o nome da pessoa 1: Lucas
 Digite o nome da pessoa 2: Talisson
-Digite o nome da pessoa 3: José da Silva
+Digite o nome da pessoa 3: Lia
+Digite o nome da pessoa 4: Fátima
 Lucas, 5 caracteres.
 Talisson, 8 caracteres.
-José da Silva, 13 caracteres.
+Lia, 3 caracteres.
+Fátima, 6 caracteres.
  */
 
 package colecoes;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Ex01 {
     public static void main(String[] args) {
         Scanner leitura = new Scanner(System.in);
+        System.out.print("Digite a quantidade de nomes: ");
+        int qtdNomes = Integer.parseInt(leitura.nextLine());
+        ArrayList<String> lista = new ArrayList<>();
 
-        System.out.println("Digite seu nome: ");
-        String nome = leitura.nextLine();
+        int contador = 1;
+        while (contador <= qtdNomes) {
+            System.out.print("Digite um nome : ");
+            String nome = leitura.nextLine();
+            lista.add(nome);
+            contador = contador + 1;
+        }
 
-        System.out.println("Digite seu nome: ");
-        String segundo = leitura.nextLine();
-
-        System.out.println("Digite seu nome: ");
-        String terceiro = leitura.nextLine();
-
-        System.out.println("Nome do usuario: " + nome);
-        System.out.println("Nome do usuario: " + segundo);
-        System.out.println("Nome do usuario: " + terceiro);
-        System.out.println();
-
-        System.out.println(nome + "," + nome.length() + " caractere");
-        System.out.println(segundo + "," + segundo.length() + " caractere");
-        System.out.println(terceiro + "," + terceiro.length() + " caractere");
-
+        for (String nome : lista) {
+            System.out.println(nome + ", " + nome.length() + " caracteres.");
+        }
     }
 }
