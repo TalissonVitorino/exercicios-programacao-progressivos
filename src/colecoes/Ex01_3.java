@@ -60,7 +60,7 @@ public class Ex01_3 {
             numerosSomados = numerosSomados + nome.length();
             if (nome.length() >= qtdMinima && nome.length() <= qtdMaxima) {
                 numerosFiltrados = numerosFiltrados + nome.length();
-                System.out.println(nome + ", " + nome.length() + " caracteres.");
+                System.out.println(nome + ", " + nome.length() + " caracteres. ");
             }
         }
         System.out.println("Todos os nomes, juntos, possuem " + numerosSomados + " caracteres.");
