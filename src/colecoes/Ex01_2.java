@@ -54,7 +54,7 @@ public class Ex01_2 {
         int qtdMaxima = Integer.parseInt(leitura.nextLine());
 
         for (String nome : lista) {
-            numerosSomados = numerosSomados + nome.length() ;
+            numerosSomados = numerosSomados + nome.length();
             if (nome.length() >= qtdMinima && nome.length() <= qtdMaxima) {
                 System.out.println(nome + ", " + nome.length() + " caracteres.");
             }
