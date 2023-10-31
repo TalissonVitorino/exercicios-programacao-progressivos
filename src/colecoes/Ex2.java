@@ -1,18 +1,17 @@
 /*
-Adicione, ao programa do exercício anterior, uma funcionalidade nova para percorrer a lista de números armazenados e,
-para cada número, imprimir se ele é par ou ímpar.
+Adicione, ao programa do exercício anterior, uma nova funcionalidade (mantendo todas as funcionalidades anteriores) para armazenar os números da lista em duas outras listas: uma que conterá somente números pares e outra que conterá somente números impares.
 
-Por exemplo, se o usuário informar os números 2, 5 e 7, o programa deve imprimir:
+Por exemplo, se o usuário informar os números 2, 5, 7, 8 e 9, além de fazer tudo o que o programa já fazia antes, o programa deverá encerrar com os números separados em duas listas diferentes, e imprimir as listas. Ex:
 
-2 é par.
-5 é ímpar.
-7 é ímpar.
+[2,8]
+[5,7,9]
  */
 
 package colecoes;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+
 public class Ex2 {
     public static void main(String[] args) {
         ArrayList<Integer> lista = new ArrayList<>();
@@ -41,5 +40,16 @@ public class Ex2 {
                 System.out.println("Número ímpar! " + num);
             }
         }
+        ArrayList<Integer> listaImpares = new ArrayList<>();
+        ArrayList<Integer> listaPares = new ArrayList<>();
+        for (Integer num : lista) {
+            if (num % 2 == 0) {
+                listaPares.add(num);
+            } else {
+                listaImpares.add(num);
+            }
+        }
+        System.out.println("Lista de números pares: " + listaPares);
+        System.out.println("Lista de números impares: " + listaImpares);
     }
 }
