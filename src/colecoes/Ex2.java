@@ -35,19 +35,15 @@ public class Ex2 {
         double media = (double) numerosSomados / lista.size();
         System.out.println("A média dos números é " + media + ".");
 
-        for (Integer num : lista) {
-            if (num % 2 == 0) {
-                System.out.println("Número par! " + num);
-            } else {
-                System.out.println("Número ímpar! " + num);
-            }
-        }
+
         ArrayList<Integer> listaImpares = new ArrayList<>();
         ArrayList<Integer> listaPares = new ArrayList<>();
         for (Integer num : lista) {
             if (num % 2 == 0) {
                 listaPares.add(num);
+                System.out.println("Número par! " + num);
             } else {
+                System.out.println("Número ímpar! " + num);
                 listaImpares.add(num);
             }
         }
