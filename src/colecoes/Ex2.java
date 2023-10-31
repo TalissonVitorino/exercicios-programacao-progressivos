@@ -1,7 +1,9 @@
 /*
-Adicione, ao programa do exercício anterior, uma nova funcionalidade (mantendo todas as funcionalidades anteriores) para armazenar os números da lista em duas outras listas: uma que conterá somente números pares e outra que conterá somente números impares.
+Adicione, ao programa do exercício anterior, uma nova funcionalidade (mantendo todas as funcionalidades anteriores)
+para armazenar os números da lista em duas outras listas: uma que conterá somente números pares e outra que conterá somente números impares.
 
-Por exemplo, se o usuário informar os números 2, 5, 7, 8 e 9, além de fazer tudo o que o programa já fazia antes, o programa deverá encerrar com os números separados em duas listas diferentes, e imprimir as listas. Ex:
+Por exemplo, se o usuário informar os números 2, 5, 7, 8 e 9, além de fazer tudo o que o programa já fazia antes,
+o programa deverá encerrar com os números separados em duas listas diferentes, e imprimir as listas. Ex:
 
 [2,8]
 [5,7,9]
