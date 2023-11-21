@@ -16,7 +16,7 @@ Informe um nome: Pedro<ENTER>
 Informe um nome: Paulo<ENTER>
 Informe um nome: <ENTER>
 LUCAS
-TALISSON0
+TALISSON
 JOÃO
 PEDRO
 PAULO
