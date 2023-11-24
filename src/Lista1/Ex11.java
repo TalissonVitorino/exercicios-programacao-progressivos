@@ -1,15 +1,3 @@
-/*pedir um preço consumidor 
-preço de custo = 2000
-imposto =  45% de preco de custo = preco de custo * 45 /100
-lucro = 12% do preco de fabrica = preco de custo * 12 / 100
-preco ao consumidor = imposto + lucro destrubuidor + preco de custo
-imprimir lucrodestribuidor,preco de custo , preco filnal
-
-
-
- */
-
-
 package Lista1;
 
 import java.util.Scanner;
