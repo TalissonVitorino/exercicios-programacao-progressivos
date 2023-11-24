@@ -16,7 +16,6 @@ public class Ex12 {
         } else {
             if (excessoVelocidade > 0 && excessoVelocidade <= 10) {
                 System.out.println("A multa será 50. ");
-
             } else {
                 if (excessoVelocidade > 10 && excessoVelocidade <= 30) {
                     System.out.println("A multa será 100. ");
