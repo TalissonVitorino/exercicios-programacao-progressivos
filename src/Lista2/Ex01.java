@@ -6,6 +6,7 @@ imprimir o resultado na tela
 package Lista2;
 
 import java.util.Scanner;
+
 public class Ex01 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
@@ -24,7 +25,6 @@ public class Ex01 {
         for (int cont = 0; cont <= numero; cont++) {
             soma = soma + cont;
         }
-        System.out.println("A soma dos números inteiros é: " +soma);
+        System.out.println("A soma dos números inteiros é: " + soma);
     }
 }
-
