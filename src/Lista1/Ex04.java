@@ -12,7 +12,7 @@ public class Ex04 {
         System.out.println("Digite outro numero: ");
         int y = teclado.nextInt();
 
-        int quociente = x / y;
+        var quociente = x / y;
         int restoDivisao = x - quociente * y;
         System.out.println(quociente);
         System.out.println(restoDivisao);

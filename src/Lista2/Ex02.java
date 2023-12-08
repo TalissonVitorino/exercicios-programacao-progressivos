@@ -13,7 +13,7 @@ public class Ex02 {
         int limitador = teclado.nextInt();
 
         for (int cont = multiplicacao; cont <= limitador; cont = cont + multiplicacao) {
-            System.out.println(""+ cont);
+            System.out.println("" + cont);
         }
     }
 }

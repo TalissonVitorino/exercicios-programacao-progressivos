@@ -12,8 +12,8 @@ public class Ex07 {
         int numero2 = teclado.nextInt();
         System.out.println("Digite um numero ");
         int numero3 = teclado.nextInt();
-        int soma = numero2 + numero3;
 
+        int soma = numero2 + numero3;
         if (numero1 > soma){
             System.out.println("Numero maior! ");
         }else{

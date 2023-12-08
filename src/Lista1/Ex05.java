@@ -12,7 +12,7 @@ public class Ex05 {
         double altura = teclado.nextDouble();
 
         double volume = PI * raio * raio * altura;
-        System.out.println("Vlaor do volume é: " + volume);
+        System.out.println("Valor do volume é: " + volume);
 
         double area = 2 * PI * raio * raio + 2 * PI * raio * altura;
         System.out.println("O valor da area é: "+ area);
