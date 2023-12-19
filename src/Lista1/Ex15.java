@@ -9,10 +9,10 @@ public class Ex15 {
         System.out.println("Digite o primeiro número: ");
         int primeiro = teclado.nextInt();
 
-        System.out.println("Digite o outro número: ");
+        System.out.println("Digite o segundo número: ");
         int segundo = teclado.nextInt();
 
-        System.out.println("Digite o primeiro número: ");
+        System.out.println("Digite o terceiro número: ");
         int terceiro = teclado.nextInt();
 
         int maior = primeiro;

@@ -1,8 +1,3 @@
-/*
-ler numeros naturais ate 100
-somar eles
-imprimir o resultado na tela
- */
 package Lista2;
 
 import java.util.Scanner;
