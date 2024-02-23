@@ -13,6 +13,6 @@ public class Ex03 {
         System.out.println("Qual é o valor da carteira de cigarro? ");
         double valorCarteira = teclado.nextDouble();
         double somaDosGastos = numeroAnos * 365 * cigarrosPorDia / 20 * valorCarteira;
-        System.out.println("total dos gastos é " + somaDosGastos);
+        System.out.println("Total dos gastos é " + somaDosGastos);
     }
 }

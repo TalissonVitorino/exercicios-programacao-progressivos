@@ -7,7 +7,7 @@ public class Ex01 {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Digite um número: ");
         int numeroSucessor = teclado.nextInt() + 1;
-        System.out.println("Numero com o sucessor é: " + numeroSucessor);
+        System.out.println("Número com o sucessor é: " + numeroSucessor);
     }
 }
 

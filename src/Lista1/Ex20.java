@@ -9,16 +9,16 @@ public class Ex20 {
         double ano = teclado.nextInt();
 
         if (ano % 400 == 0) {
-            System.out.println("Ano bissexto. ");
+            System.out.println("Ano bissexto!");
         } else {
             if (ano % 4 == 0) {
                 if (ano % 100 != 0) {
-                    System.out.println("Ano bissexto. ");
+                    System.out.println("Ano bissexto!");
                 } else {
-                    System.out.println("Ano nao bissexto. ");
+                    System.out.println("Ano nao bissexto!");
                 }
             } else {
-                System.out.println("nao e bissexto. ");
+                System.out.println("nao e bissexto!");
             }
         }
     }

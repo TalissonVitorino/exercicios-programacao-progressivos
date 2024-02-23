@@ -6,9 +6,9 @@ import static java.lang.Math.*;
 public class Ex05 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        System.out.println("Digite o raio da base do cilindro");
+        System.out.println("Digite o raio da base do cilindro: ");
         double raio = teclado.nextDouble();
-        System.out.println("Digite a altura do cilindro");
+        System.out.println("Digite a altura do cilindro: ");
         double altura = teclado.nextDouble();
 
         double volume = PI * raio * raio * altura;

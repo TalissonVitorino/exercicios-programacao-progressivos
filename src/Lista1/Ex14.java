@@ -19,10 +19,10 @@ public class Ex14 {
 
         if (numero2 != 0) {
             divisao = numero1 / numero2;
-            System.out.println(" o quociente do primeiro numero pelo segundo é: " + divisao);
+            System.out.println("O quociente do primeiro numero pelo segundo é: " + divisao);
 
         } else {
-            System.out.println("DIVISÃO POR ZERO");
+            System.out.println("DIVISÃO POR ZERO!");
 
         }
 

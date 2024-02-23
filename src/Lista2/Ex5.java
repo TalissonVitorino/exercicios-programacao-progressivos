@@ -9,12 +9,12 @@ public class Ex5 {
         int quantidade = teclado.nextInt();
         int somaIdades = 0;
 
-        for (int i = 0; i < quantidade; i = i + 1) {
-            System.out.print("Digite a idade do aluno " + (i+1) + ": ");
+        for (int i = quantidade; i >= 1 ; i = i - 1) {
+            System.out.print("Digite a idade do aluno " + (i) + ": ");
             int idades = teclado.nextInt();
             somaIdades += idades;
         }
-        int media = somaIdades / quantidade;
-        System.out.println(media);
+        double media = (double) somaIdades / quantidade;
+        System.out.println("A média é: " + media);
     }
 }

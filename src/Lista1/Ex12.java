@@ -14,15 +14,15 @@ public class Ex12 {
         double excessoVelocidade = velocidadeMotoriusta - velocidadePista;
 
         if (excessoVelocidade <= 0) {
-            System.out.println("Não tem multa. ");
+            System.out.println("Não tem multa! ");
         } else {
             if (excessoVelocidade > 0 && excessoVelocidade <= 10) {
-                System.out.println("A multa será 50. ");
+                System.out.println("A multa será 50.");
             } else {
                 if (excessoVelocidade > 10 && excessoVelocidade <= 30) {
-                    System.out.println("A multa será 100. ");
+                    System.out.println("A multa será 100.");
                 } else {
-                    System.out.println("A multa será 200. ");
+                    System.out.println("A multa será 200.");
                 }
             }
         }

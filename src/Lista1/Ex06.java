@@ -6,9 +6,9 @@ public class Ex06 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
-        System.out.println("Digite um numero");
+        System.out.println("Digite um numero: ");
         int primeiroNumero = teclado.nextInt();
-        System.out.println("Digite outro numero");
+        System.out.println("Digite outro numero: ");
         int outroNumero = teclado.nextInt();
         int soma;
         int multiplicacao;
